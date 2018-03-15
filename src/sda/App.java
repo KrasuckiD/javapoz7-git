@@ -12,6 +12,7 @@ public class App {
         System.out.println(myCalculator.mul(randomGenerator.getSmallNumber(),randomGenerator.getSmallNumber()));
         System.out.println("Factorial = " + myCalculator.factorisl(5));
         System.out.println("Hello");
+        System.out.println("Ola");
         System.out.println("Ala ma kota");
 
     }

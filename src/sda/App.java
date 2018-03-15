@@ -10,6 +10,7 @@ public class App {
         System.out.println(calculator.sum(randomGenerator.getSmallNumber(),randomGenerator.getBigNumber()));
         System.out.println(calculator.div(randomGenerator.getSmallNumber(),randomGenerator.getSmallNumber()));
         System.out.println(calculator.mul(randomGenerator.getSmallNumber(),randomGenerator.getSmallNumber()));
+        System.out.println("Factorial = " + calculator.factorisl(5));
 
 
     }

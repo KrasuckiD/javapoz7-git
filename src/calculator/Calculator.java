@@ -13,4 +13,12 @@ public class Calculator {
     public int min(int a, int b){
         return a-b;
     }
+
+    public int factorisl (int n){
+        int result = 1;
+        for (int i = 0; i <= n; i++) {
+            result *= i;
+        }
+        return result;
+    }
 }
